@@ -1,11 +1,11 @@
 import { useContext } from 'react';
 import imgElon from '../assets/images/elon.jpg'
 import imgZuck from '../assets/images/zuck.jpg'
-import { AppContext } from '../App';
+import { LocalStorageContext } from '../App';
 
 export default function RightSide() {
 
-    const { theme } = useContext(AppContext);
+    const { theme } = useContext(LocalStorageContext);
 
     return (
         <aside>
